@@ -16,7 +16,7 @@ Unleveles Item and Character Lists through F4SE making all Leveled Lists have Le
 
 Requirements
 
-F4SE - Fallout 4 - 1.11.221.0
+F4SE - Fallout 4 - 1.11.240.0
 
 
 
