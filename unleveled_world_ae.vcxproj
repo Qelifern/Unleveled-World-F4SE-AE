@@ -55,7 +55,6 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\..\plugins_common;$(SolutionDir)\..\..\f4se-0.7.8\f4se_common;$(SolutionDir)\..\..\f4se-0.7.8\f4se;$(SolutionDir)\..\..\f4se-0.7.8;$(SolutionDir)\..\..\common;$(SolutionDir)\..\..</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_USRDLL;F4SE_PLUGIN_EXAMPLE_EXPORTS;RUNTIME;RUNTIME_VERSION=$(SeRuntimeVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -67,7 +66,7 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalDependencies>f4se_common.lib;common_vc11.lib;f4se_1_11_221.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>common_vc11.lib;f4se_1_11_240.lib;f4se_common.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)Builds\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -75,7 +74,6 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\..\plugins_common;$(SolutionDir)\..\..\f4se-0.7.8\f4se_common;$(SolutionDir)\..\..\f4se-0.7.8\f4se;$(SolutionDir)\..\..\f4se-0.7.8;$(SolutionDir)\..\..\common;$(SolutionDir)\..\..</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_USRDLL;F4SE_PLUGIN_EXAMPLE_EXPORTS;RUNTIME;RUNTIME_VERSION=$(SeRuntimeVersion);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -90,7 +88,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalDependencies>f4se_common.lib;common_vc11.lib;f4se_1_11_221.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>common_vc11.lib;f4se_1_11_240.lib;f4se_common.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)Builds\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -108,10 +106,10 @@
     <ProjectReference Include="..\..\common\common_vc11.vcxproj">
       <Project>{d4c128a1-73dc-4941-a453-ce55af239ba8}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\f4se-0.7.8\f4se\f4se.vcxproj">
+    <ProjectReference Include="..\..\f4se\f4se\f4se.vcxproj">
       <Project>{a236f69d-8ff9-4491-ac5f-45bf49448bbe}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\f4se-0.7.8\f4se_common\f4se_common.vcxproj">
+    <ProjectReference Include="..\..\f4se\f4se_common\f4se_common.vcxproj">
       <Project>{20c6411c-596f-4b85-be4e-8bc91f59d8a6}</Project>
     </ProjectReference>
   </ItemGroup>

@@ -13,9 +13,9 @@
 #define PLUGIN_NAME_SHORT			"unleveled_world_ae"	// Plugin name without spaces - same as in the vcxproj
 #define PLUGIN_NAME_LONG			"Unleveled World AE"	// Plugin name with spaces - shown in various places once loaded
 
-// Plugin version, Major, Minor, Build. EG: (1.0.0) equals (Major.Minor.Build)
+// Plugin version, Major, Minor, Build. EG: (1.1.0) equals (Major.Minor.Build)
 #define PLUGIN_VERSION_MAJOR		1
-#define PLUGIN_VERSION_MINOR		0
+#define PLUGIN_VERSION_MINOR		1
 #define PLUGIN_VERSION_BUILD		0
 
 // ================================
@@ -37,7 +37,7 @@
 // ================================
 
 // The minimum runtime version allowed by the plugin. EG: I need function X, which was added in runtime Y, therefore Y is the minimum runtime version
-#define MINIMUM_RUNTIME_VERSION				RUNTIME_VERSION_1_11_221 // The lowest next generation version
+#define MINIMUM_RUNTIME_VERSION				RUNTIME_VERSION_1_11_240 // The lowest next generation version
 
 // The runtime version the plugin was designed for
 // #define SUPPORTED_RUNTIME_VERSION		CURRENT_RELEASE_RUNTIME
